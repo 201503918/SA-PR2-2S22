@@ -11,7 +11,7 @@ const Login = (req = Request, res = Response) => {
         let password = body.password;
         let rol = body.rol;
 
-        let usuarios = ["Carlos","SABurguer","SARepartidor"];
+        let usuarios = ["Brayan","SABurguer","SARepartidor"];
         let passwords = ["123","321","159"];
         let roles = ["CLIENTE","RESTAURANTE","REPARTIDOR"];
 
